@@ -1,0 +1,240 @@
+
+a{
+    	text-decoration: none;
+    }
+ul{
+    	list-style-type: none;
+    }
+.clear:after{
+    	content: "";
+    	height: 0;
+    	display: block;
+    	clear: both;
+    }
+.header {
+    
+}
+
+.header-top {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hearder-info{
+    float:right;
+}
+.hearder-info li{
+    margin-left: 27px;
+    float: left;
+}
+.hearder-info a{
+    font-size: 12px;
+    font-weight: 300;
+    color: rga(0,0,0,1);
+    }
+.hearder-info a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.iphone{
+    padding-left: 17px;
+    background: url(iphone.png) no-repeat left center;
+}
+.denglu{
+    padding-left: 17px;
+    background: url(view.png) no-repeat left center;
+}
+.hearder-bottom{
+    height: 100px;
+}
+.logo {
+    padding-top: 14px;
+    float: left;
+    }
+.nav {
+    float: left;
+    margin-top: 38px;
+    }
+
+.nav li {
+    float: left;
+    width: 122px;
+    text-align: center;
+    border-right: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    }
+.nav .last {
+    border: none;
+    }
+.nav a {
+    color: rgba(0, 0, 0, 1);
+    }
+.nav a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.form {
+    float: right;
+    margin-top:34px;
+     }
+.search{
+    float: left;
+    width: 145px;
+    padding: 9px;
+    background: 0px solid rgba(208,61,61,0.8) 
+}
+.submit{
+    float: left;
+    width: 36px;
+    height: 35px;
+    background: rgb(208,61,61,1)
+    url(fa-search.png) no-repeat center center;
+}
+.banner{
+    height: 550px;
+}
+.banner li{   
+    height: 550px;    
+}
+.banner-one{
+    	
+    	background: white url(banner1.jpg) no-repeat
+         center;
+    }
+.banner-two{
+        
+        background: white url(banner2.jpg) no-repeat
+         center;
+    }
+.text{
+    position: absolute;
+    top: 300px;
+    left:32% ;
+}
+p{
+    font-weight:700;
+    font-size: 70px;
+    font-family: "楷体";
+    color:rgb(255,255,255,0.8);
+}
+.prev,
+.next{
+width: 80px;
+height: 80px;
+position:absolute;
+top: 360px;
+left: 5%;
+color:rgba(255,255,255,0.8);
+}
+.next{
+    left: auto;
+    right: 5%;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+    height: 80px;
+}
+.title h2{
+font-size: 18px;
+font-family: SimSun;
+color:rgba(20,150,150,1) ;
+background: url(bg-title.png) no-repeat
+         center;
+}
+.tubiao h1{
+  font-size: 8px;
+font-family: SimSun;  
+color:rgba(20,150,150,1) ;
+}
+.tubiao {
+    text-align: center;
+}
+.tubiao li{
+    float: left;
+    padding-right: 30px;
+     padding-left: 30px;
+     
+     text-align: center;
+     }
+.tubiao a:hover {
+    color: orange;
+    }
+  .zi{
+            height: 120px;
+            background: #000;
+            position: absolute;
+            top: 1650px;
+            width: 1700px;
+            background-color: rgba(0,0,0,0.8);
+            left: 0;
+            right: 0;
+
+}
+
+.tow>p{     font-size: 40px;
+            font-family: SimSun; 
+            position: absolute;
+            top: 40px;
+            left: 450px;
+            color:while;
+        }
+
+.product {
+    height: 580px;
+    background: #ddd;
+    /*设置margin-top不可以 边距重合现象*/
+    padding-top: 20px;
+}
+
+.product-big {
+    float: left;
+}
+
+.product-small {
+    float: right;
+    width: 800px;
+}
+
+.product-small li {
+    float: left;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.product-small img {
+    width: 396px;
+    height: 275px;
+}
+
+.product li {
+    position: relative;
+}
+
+.product span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 47px;
+    background: rgba(0, 0, 0, .4);
+    padding-left: 38px;
+    font-size: 18px;
+    color: white;
+}
+
+.product-big span {
+    height: 73px;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.product-big span {
+    font-size: 18px;
+}
+

@@ -1,0 +1,323 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+    text-decoration: none;
+    }
+input{
+                  outline:none }
+.thewhole{
+	margin: 0px;
+    padding-left:180px;
+    width: 250px;
+    border:solid;
+    border-color: red;
+    border-width: 1px;   
+}
+.whole{
+	margin: 0px;
+    padding-left:600px;
+    width: 250px;
+    border:solid;
+    border-color: #fff;
+    border-width: 1px;
+    
+} 
+.one{
+	margin-left: 10px;
+    padding-left:10px;
+}
+.two{
+	margin-left: 10px;
+    padding-left:10px;
+}
+.input-three {
+             margin: 20px;
+             padding:20px;
+             height: 30px;
+             width: 160px;
+             border: none;         
+             color: #fff; 
+             background-color: red;
+              }
+.littleslider{
+	width: 270px;
+    height: 50px;
+    background-color:#fff;
+	position: absolute;
+    border-color: red; 		
+	left: 50px;
+
+}
+#ticket{
+	font-size: 30px;
+	color: red;
+}
+.clear:after{
+    	content: "";
+    	height: 0;
+    	display: block;
+    	clear: both;
+    }
+.header {
+    
+}
+
+.header-top {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hearder-info{
+    float:right;
+}
+.hearder-info li{
+    margin-left: 27px;
+    float: left;
+}
+.hearder-info a{
+    font-size: 12px;
+    font-weight: 300;
+    color: rga(0,0,0,1);
+    }
+.hearder-info a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.iphone{
+    padding-left: 17px;
+    background: url(images/iphone.png) no-repeat left center;
+}
+.denglu{
+    padding-left: 17px;
+    background: url(images/view.png) no-repeat left center;
+}
+#denglu{
+
+}
+.hearder-bottom{
+    height: 100px;
+}
+.logo {
+    padding-top: 14px;
+    float: left;
+    }
+.navone {
+    float: left;
+    margin-top: 38px;
+    }
+
+.navone li {
+    float: left;
+    width: 122px;
+    text-align: center;
+    border-right: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    }
+.navone .last {
+    border: none;
+    }
+.navone a {
+    color: rgba(0, 0, 0, 1);
+    }
+.navone a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.form {
+    float: right;
+    margin-top:34px;
+     }
+.search{
+    float: left;
+    width: 145px;
+    padding: 9px;
+    background: 0px solid rgba(208,61,61,0.8) 
+}
+.submit{
+    float: left;
+    width: 36px;
+    height: 35px;
+    background: rgb(208,61,61,1)
+    url(images/fa-search.png) no-repeat center center;
+}
+
+.text{
+    position: absolute;
+    top: 300px;
+    left:32% ;
+}
+ p{
+    font-weight:700;
+    font-size: 70px;
+    font-family: "楷体";
+    color:rgb(255,255,255,0.8);
+}  
+.title{
+    text-align: center;
+    padding-top: 10px;
+    height: 80px;
+}
+.title h2{
+font-size: 18px;
+font-family: SimSun;
+color:rgba(20,150,150,1) ;
+background: url(images/bg-title.png) no-repeat
+         center;
+}
+.tubiao h1{
+  font-size: 8px;
+font-family: SimSun;  
+color:rgba(20,150,150,1) ;
+}
+.tubiao {
+    text-align: center;
+}
+.tubiao li{
+    float: left;
+    padding-right: 30px;
+     padding-left: 30px;
+     
+     text-align: center;
+     }
+.tubiao a:hover {
+    color: orange;
+    }
+  .zi{
+            height: 120px;
+            background: #000;
+            position: absolute;
+            top: 1650px;
+            width: 1700px;
+            background-color: rgba(0,0,0,0.8);
+            left: 0;
+            right: 0;
+
+}
+
+.tow>p{     font-size: 40px;
+            font-family: SimSun; 
+            position: absolute;
+            top: 40px;
+            left: 450px;
+            color:while;
+        }
+
+.product {
+    height: 580px;
+    background: #ddd;
+    /*设置margin-top不可以 边距重合现象*/
+    padding-top: 20px;
+}
+
+.product-big {
+    float: left;
+}
+
+.product-small {
+    float: right;
+    width: 800px;
+}
+
+.product-small li {
+    float: left;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.product-small img {
+    width: 396px;
+    height: 275px;
+}
+
+.product li {
+    position: relative;
+}
+
+.product span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 47px;
+    background: rgba(0, 0, 0, .4);
+    padding-left: 38px;
+    font-size: 18px;
+    color: white;
+}
+
+.product-big span {
+    height: 73px;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.product-big span {
+    font-size: 18px;
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 385px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+
